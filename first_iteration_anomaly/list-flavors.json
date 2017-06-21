@@ -1,0 +1,12 @@
+{
+  "NovaFlavors.list_flavors": [
+    {
+      "runner": {
+        "type": "serial",
+        "times": 1
+      },
+      "context": {
+      }
+    }
+  ]
+}

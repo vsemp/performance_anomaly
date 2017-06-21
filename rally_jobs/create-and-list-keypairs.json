@@ -1,0 +1,16 @@
+{
+    "NovaKeypair.create_and_list_keypairs": [
+        {
+            "runner": {
+                "type": "serial",
+                "times": 10,
+            },
+            "context": {
+                "users": {
+                    "tenants": 1,
+                    "users_per_tenant": 1
+                }
+            }
+        }
+    ]
+}
