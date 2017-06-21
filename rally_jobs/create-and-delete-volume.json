@@ -1,0 +1,19 @@
+{
+    "CinderVolumes.create_and_delete_volume": [
+        {
+            "args": {
+                "size": 1
+            },
+            "runner": {
+                "type": "serial",
+                "times": 10,
+            },
+            "context": {
+                "users": {
+                    "tenants": 1,
+                    "users_per_tenant": 1
+                }
+            }
+        }
+    ]
+}
